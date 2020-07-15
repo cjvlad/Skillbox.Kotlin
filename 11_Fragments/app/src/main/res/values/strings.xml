@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">11_Fragments</string>
+
+    <string name="onboarding_text_1">AS350</string>
+    <string name="onboarding_text_2">Bell412</string>
+    <string name="onboarding_text_3">Mi-8</string>
+    <string name="onboarding_text_4">MilMi-26</string>
+    <string name="onboarding_text_5">A320</string>
+    <string name="onboarding_text_6">B737-500</string>
+    <string name="onboarding_text_7">B777</string>
+    <string name="onboarding_text_8">Eclipse550</string>
+    <string name="onboarding_text_9">An-2</string>
+    <string name="onboarding_text_10">Cessna177</string>
+    <string name="onboarding_text_11">Fokker50</string>
+    <string name="onboarding_text_12">PiperPA-31</string>
+
+    <string name="buttonText">Случайная статья</string>
+</resources>
