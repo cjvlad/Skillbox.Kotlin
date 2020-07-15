@@ -1,0 +1,1 @@
+class NoAmmoException : Exception()

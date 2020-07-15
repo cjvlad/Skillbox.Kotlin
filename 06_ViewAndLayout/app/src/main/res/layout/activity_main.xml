@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:id="@+id/container"
+              android:orientation="vertical"
+              android:padding="24dp">
+    <ImageView
+            android:id="@+id/imageView"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="10dp"
+            app:srcCompat="@android:drawable/btn_dialog"/>
+    <TextView
+
+            android:text="@string/writeText"
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:textSize="17sp"
+            android:textColor="@android:color/black"/>
+
+    <EditText
+
+            android:id="@+id/inputEmail"
+            android:hint="@string/input_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <EditText
+
+            android:id="@+id/inputPassword"
+            android:hint="@string/input_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <CheckBox
+                android:id="@+id/checkboxAgreement"
+                android:text="@string/accept_agreement"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"/>
+
+        <ProgressBar
+                android:id="@+id/operationProcess"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="invisible"/>
+    </LinearLayout>
+
+    <Button
+            android:enabled="false"
+            android:id="@+id/loginButton"
+            android:text="@string/login_button"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"/>
+</LinearLayout>

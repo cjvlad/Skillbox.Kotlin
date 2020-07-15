@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">09_Intents</string>
+    <string name="input_email">Ввведите Email:</string>
+    <string name="input_password">Password:</string>
+    <string name="accept_agreement">Принять соглашение</string>
+    <string name="login_button">Login</string>
+    <string name="writeText">Введите данные:</string>
+    <string name="form_not_true">Не проходит валидацию</string>
+    <string name="anrText">ANR</string>
+    <string name="call">Позвонить</string>
+</resources>
