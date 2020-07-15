@@ -1,4 +1,4 @@
-#Tue Jul 14 15:49:09 ALMT 2020
+#Wed Jul 15 23:03:43 ALMT 2020
 base.1=D\:\\Android\\Projects\\android_basic\\10_Fragments\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
 path.1=classes.dex
 base.0=D\:\\Android\\Projects\\android_basic\\10_Fragments\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex

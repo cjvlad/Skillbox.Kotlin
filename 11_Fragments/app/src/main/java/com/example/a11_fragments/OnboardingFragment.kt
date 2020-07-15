@@ -1,19 +1,17 @@
-package com.example.a11_fragments
-
 import android.os.Bundle
-
 import androidx.annotation.ColorRes
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
 import androidx.fragment.app.Fragment
+import com.example.a11_fragments.R
 import kotlinx.android.synthetic.main.fragment_article.*
 
-class OnboardingFragment(): Fragment(R.layout.fragment_article) { // создали фрагмент
+class OnboardingFragment(): Fragment(R.layout.fragment_article) {
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        requireView().setBackgroundResource(requireArguments().getInt(KEY_COLOR))
         textView.setText(requireArguments().getInt(KEY_TEXT))
+        requireView().setBackgroundResource(requireArguments().getInt(KEY_COLOR))
         imageView.setImageResource(requireArguments().getInt(KEY_IMAGE))
     }
 
@@ -22,18 +20,16 @@ class OnboardingFragment(): Fragment(R.layout.fragment_article) { // созда�
         private const val KEY_IMAGE = "image"
         private const val KEY_COLOR = "color"
 
-        fun newInstance(  // при вызове создается новый фрагмент
+        fun newInstance(
             @StringRes textRes: Int,
             @ColorRes bgColorRes: Int,
             @DrawableRes drawableRes: Int
-
         ): OnboardingFragment {
-            return OnboardingFragment().withArguments {
+            return OnboardingFragment().whithArguments {
                 putInt(KEY_TEXT, textRes)
-                putInt(KEY_COLOR, bgColorRes)
                 putInt(KEY_IMAGE, drawableRes)
+                putInt(KEY_COLOR, bgColorRes)
             }
         }
-
     }
 }

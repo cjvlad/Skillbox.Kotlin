@@ -17,7 +17,7 @@
 
         <Button
                 android:id="@+id/button_filter"
-                android:text= "@string/button_text"
+                android:text= "@string/buttonText"
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
 
@@ -54,7 +54,8 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/Tablayout"
-            app:layout_constraintVertical_bias="1.0"></androidx.viewpager2.widget.ViewPager2>
+            app:layout_constraintVertical_bias="1.0">
+    </androidx.viewpager2.widget.ViewPager2>
 
     <com.tbuonomo.viewpagerdotsindicator.DotsIndicator
             android:id="@+id/dotsIndicator"
@@ -72,5 +73,7 @@
             app:progressMode="true"
             app:selectedDotColor="@color/colorPrimary"
             tools:ignore="MissingConstraints" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
