@@ -3,16 +3,17 @@ import androidx.fragment.app.Fragment
 import androidx.viewpager2.widget.ViewPager2
 import com.example.a11_fragments.ChoiseDialogFragment
 import com.example.a11_fragments.R
+import com.example.a11_fragments.SpinnerTransformation
 import com.google.android.material.badge.BadgeDrawable
 import com.google.android.material.tabs.TabLayoutMediator
 import kotlinx.android.synthetic.main.activity_tabs.*
 
-class TabsActivity: Fragment(R.layout.activity_tabs) {
+class TabsActivity: Fragment(R.layout.activity_tabs)  {
 
     private fun applyFilter(viewpager: ViewPager2, screens : List<OnboardingScreen>) {
-
         val adapter = OnboardingAdapter(screens, this) // количество экранов увеличен в два раза скринс
         viewPager.adapter = adapter
+        viewpager.setPageTransformer(SpinnerTransformation())
 
         TabLayoutMediator(Tablayout, viewPager) // связать лайаут и вьюпейджер
         { tab, position ->
@@ -108,10 +109,6 @@ class TabsActivity: Fragment(R.layout.activity_tabs) {
         )
     )
 
-    private var filtredArticles = screens
-
-
-
     fun onConfirm(filteredData : Array<Boolean>) {
         val tmpModelList = ArrayList<OnboardingScreen>()
         for (e in screens)
@@ -125,7 +122,6 @@ class TabsActivity: Fragment(R.layout.activity_tabs) {
         filterData = filteredData
         applyFilter(viewPager, tmpModelList)
     }
-
 
     var filterData = arrayOf(true,true,true,true,true,true)
 
@@ -151,7 +147,5 @@ class TabsActivity: Fragment(R.layout.activity_tabs) {
         button_filter.setOnClickListener {
             ChoiseDialogFragment.newInstance(filterData).show(childFragmentManager, "choisedialogfragment ")
         }
-
     }
-
 }
