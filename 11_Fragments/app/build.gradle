@@ -42,3 +42,8 @@ android {
         implementation 'com.tbuonomo.andrui:viewpagerdotsindicator:4.1.2'
     }
 }
+
+dependencies {
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.1.0'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.1.0'
+}
