@@ -9,6 +9,7 @@ import androidx.fragment.app.DialogFragment
 class TagsFilterDialog : DialogFragment() {
     interface TagsFilterDialogListener {
         fun onApplyDialog(checkedTags: BooleanArray?)
+        fun onRestoreInstanceState(savedInstanceState: Bundle)
     }
 
     lateinit var listener: TagsFilterDialogListener

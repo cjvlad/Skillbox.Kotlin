@@ -11,6 +11,32 @@ import kotlin.random.Random
 
 class ViewPagerFragment : Fragment(R.layout.fragment_view_pager), TagsFilterDialog.TagsFilterDialogListener {
 
+    companion object {
+        private const val FORM_STATE = "Form state"
+    }
+
+    override fun onSaveInstanceState(outState: Bundle) {
+        super.onSaveInstanceState(outState)
+        for (i in 0..filteredArticles.size) {
+            outState.putInt(FORM_STATE, tabLayout.getTabAt(i)?.badge?.number ?: 0)
+            outState.putBooleanArray(FORM_STATE, checkedTags)
+        }
+    }
+
+    override fun onRestoreInstanceState(savedInstanceState: Bundle) {
+        savedInstanceState.let {
+            for (i in 0..filteredArticles.size) {
+                val num = it.getInt(FORM_STATE)
+                if (num != 0) {
+                    tabLayout.getTabAt(i)?.orCreateBadge?.apply {
+                        number = num
+                        badgeGravity = BadgeDrawable.TOP_END
+                    }
+                }
+            }
+        }
+    }
+
     private val articles = listOf(
         Article(
             tags = listOf(ArticleTag.HELICOPTER),
@@ -116,7 +142,6 @@ class ViewPagerFragment : Fragment(R.layout.fragment_view_pager), TagsFilterDial
     private val callback = object : ArticleFragment.OnGenerateEventListener {
         override fun onGenerateEventClick() {
             val tab = tabLayout.getTabAt(Random.nextInt(0, filteredArticles.size))
-
             tab?.badge
                 ?.let {
                     it.number++
@@ -131,6 +156,12 @@ class ViewPagerFragment : Fragment(R.layout.fragment_view_pager), TagsFilterDial
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
+        if (savedInstanceState != null) {
+            checkedTags = savedInstanceState.getBooleanArray(FORM_STATE)
+            onApplyDialog(checkedTags)
+        } else {
+            setDataToViewPager(articles)
+        }
 
         setDataToViewPager(articles)
 
