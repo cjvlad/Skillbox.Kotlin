@@ -1,9 +1,9 @@
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import androidx.viewpager2.widget.ViewPager2
+import com.example.a11_fragments.HingeTransformation
 import com.example.a11_fragments.R
 import com.example.a11_fragments.TagsFilterDialog
-import com.example.a11_fragments.ZoomOutTransformation
 import com.google.android.material.badge.BadgeDrawable
 import com.google.android.material.tabs.TabLayoutMediator
 import kotlinx.android.synthetic.main.fragment_view_pager.*
@@ -17,24 +17,11 @@ class ViewPagerFragment : Fragment(R.layout.fragment_view_pager), TagsFilterDial
 
     override fun onSaveInstanceState(outState: Bundle) {
         super.onSaveInstanceState(outState)
-        for (i in 0..filteredArticles.size) {
-            outState.putInt(FORM_STATE, tabLayout.getTabAt(i)?.badge?.number ?: 0)
-            outState.putBooleanArray(FORM_STATE, checkedTags)
-        }
-    }
 
-    override fun onRestoreInstanceState(savedInstanceState: Bundle) {
-        savedInstanceState.let {
-            for (i in 0..filteredArticles.size) {
-                val num = it.getInt(FORM_STATE)
-                if (num != 0) {
-                    tabLayout.getTabAt(i)?.orCreateBadge?.apply {
-                        number = num
-                        badgeGravity = BadgeDrawable.TOP_END
-                    }
-                }
-            }
+        for (i in 0..filteredArticles.size) {
+            outState.putInt("badge$i", tabLayout.getTabAt(i)?.badge?.number ?: 0)
         }
+        outState.putBooleanArray(FORM_STATE, checkedTags)
     }
 
     private val articles = listOf(
@@ -44,7 +31,6 @@ class ViewPagerFragment : Fragment(R.layout.fragment_view_pager), TagsFilterDial
             bgColorRes = R.color.onboarding_color_1,
             titleRes = R.string.article_1_title,
             imageRes = R.drawable.as350
-
         ),
 
         Article(
@@ -52,7 +38,7 @@ class ViewPagerFragment : Fragment(R.layout.fragment_view_pager), TagsFilterDial
             textRes = R.string.onboarding_text_2,
             bgColorRes = R.color.onboarding_color_2,
             titleRes = R.string.article_2_title,
-            imageRes = R.drawable.bell412
+            imageRes = R.drawable.piperpa31
         ),
 
         Article(
@@ -60,7 +46,7 @@ class ViewPagerFragment : Fragment(R.layout.fragment_view_pager), TagsFilterDial
             textRes = R.string.onboarding_text_3,
             bgColorRes = R.color.onboarding_color_3,
             titleRes = R.string.article_3_title,
-            imageRes = R.drawable.mi8
+            imageRes = R.drawable.piperpa31
         ),
 
         Article(
@@ -68,7 +54,7 @@ class ViewPagerFragment : Fragment(R.layout.fragment_view_pager), TagsFilterDial
             textRes = R.string.onboarding_text_4,
             bgColorRes = R.color.onboarding_color_4,
             titleRes = R.string.article_4_title,
-            imageRes = R.drawable.milmi26
+            imageRes = R.drawable.piperpa31
         ),
 
         Article(
@@ -76,15 +62,15 @@ class ViewPagerFragment : Fragment(R.layout.fragment_view_pager), TagsFilterDial
             textRes = R.string.onboarding_text_5,
             bgColorRes = R.color.onboarding_color_5,
             titleRes = R.string.article_1_title,
-            imageRes = R.drawable.a320
+            imageRes = R.drawable.piperpa31
         ),
 
         Article(
             tags = listOf(ArticleTag.JET),
             textRes = R.string.onboarding_text_6,
-            bgColorRes = R.color.onboarding_color_5,
+            bgColorRes = R.color.onboarding_color_3,
             titleRes = R.string.article_2_title,
-            imageRes = R.drawable.b737
+            imageRes = R.drawable.piperpa31
         ),
 
         Article(
@@ -92,7 +78,7 @@ class ViewPagerFragment : Fragment(R.layout.fragment_view_pager), TagsFilterDial
             textRes = R.string.onboarding_text_7,
             bgColorRes = R.color.onboarding_color_1,
             titleRes = R.string.article_3_title,
-            imageRes = R.drawable.b777
+            imageRes = R.drawable.piperpa31
         ),
 
         Article(
@@ -100,7 +86,7 @@ class ViewPagerFragment : Fragment(R.layout.fragment_view_pager), TagsFilterDial
             textRes = R.string.onboarding_text_8,
             bgColorRes = R.color.onboarding_color_2,
             titleRes = R.string.article_4_title,
-            imageRes = R.drawable.eclipse550
+            imageRes = R.drawable.piperpa31
         ),
 
         Article(
@@ -108,7 +94,7 @@ class ViewPagerFragment : Fragment(R.layout.fragment_view_pager), TagsFilterDial
             titleRes = R.string.article_1_title,
             textRes = R.string.onboarding_text_9,
             bgColorRes = R.color.onboarding_color_3,
-            imageRes = R.drawable.an2
+            imageRes = R.drawable.piperpa31
         ),
 
         Article(
@@ -116,7 +102,7 @@ class ViewPagerFragment : Fragment(R.layout.fragment_view_pager), TagsFilterDial
             titleRes = R.string.article_2_title,
             textRes = R.string.onboarding_text_10,
             bgColorRes = R.color.onboarding_color_4,
-            imageRes = R.drawable.cessna177
+            imageRes = R.drawable.piperpa31
         ),
 
         Article(
@@ -124,7 +110,7 @@ class ViewPagerFragment : Fragment(R.layout.fragment_view_pager), TagsFilterDial
             titleRes = R.string.article_3_title,
             textRes = R.string.onboarding_text_11,
             bgColorRes = R.color.onboarding_color_5,
-            imageRes = R.drawable.fokker50
+            imageRes = R.drawable.piperpa31
         ),
         Article(
             tags = listOf(ArticleTag.PROPELLER),
@@ -156,16 +142,26 @@ class ViewPagerFragment : Fragment(R.layout.fragment_view_pager), TagsFilterDial
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
+
         if (savedInstanceState != null) {
             checkedTags = savedInstanceState.getBooleanArray(FORM_STATE)
             onApplyDialog(checkedTags)
+
+            for (i in 0..filteredArticles.size) {
+                val num = savedInstanceState.getInt("badge$i")
+                if (num != 0) {
+                    tabLayout.getTabAt(i)?.orCreateBadge?.apply {
+                        number = num
+                        badgeGravity = BadgeDrawable.TOP_END
+                    }
+                }
+            }
         } else {
             setDataToViewPager(articles)
         }
 
-        setDataToViewPager(articles)
 
-        viewPager.setPageTransformer(ZoomOutTransformation())
+        viewPager.setPageTransformer(HingeTransformation())
 
         viewPager.registerOnPageChangeCallback(object : ViewPager2.OnPageChangeCallback() {
             override fun onPageSelected(position: Int) {

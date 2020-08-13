@@ -50,5 +50,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:stiffness="300" />
-    
+
 </androidx.constraintlayout.widget.ConstraintLayout>
