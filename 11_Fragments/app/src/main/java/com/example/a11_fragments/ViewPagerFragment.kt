@@ -9,7 +9,7 @@ import com.google.android.material.tabs.TabLayoutMediator
 import kotlinx.android.synthetic.main.fragment_view_pager.*
 import kotlin.random.Random
 
-class ViewPagerFragment : Fragment(R.layout.fragment_view_pager), TagsFilterDialog.TagsFilterDialogListener {
+class ViewPagerFragment : Fragment(R.layout.fragment_view_pager), TagsFilterDialog.TagsFilterDialogListener, ArticleFragment.OnGenerateEventListener {
 
     companion object {
         private const val FORM_STATE = "Form state"
@@ -121,20 +121,16 @@ class ViewPagerFragment : Fragment(R.layout.fragment_view_pager), TagsFilterDial
         )
     )
 
-
-
     private var filteredArticles = articles
 
-    private val callback = object : ArticleFragment.OnGenerateEventListener {
-        override fun onGenerateEventClick() {
-            val tab = tabLayout.getTabAt(Random.nextInt(0, filteredArticles.size))
-            tab?.badge
-                ?.let {
-                    it.number++
-                } ?: tab?.orCreateBadge?.apply {
-                number = 1
-                badgeGravity = BadgeDrawable.TOP_END
-            }
+    override fun onGenerateEventClick() {
+        val tab = tabLayout.getTabAt(Random.nextInt(0, filteredArticles.size))
+        tab?.badge
+            ?.let {
+                it.number++
+            } ?: tab?.orCreateBadge?.apply {
+            number = 1
+            badgeGravity = BadgeDrawable.TOP_END
         }
     }
 
@@ -202,7 +198,7 @@ class ViewPagerFragment : Fragment(R.layout.fragment_view_pager), TagsFilterDial
     }
 
     private fun setDataToViewPager(articles: List<Article>) {
-        val adapter = activity?.let { ArticleAdapter(articles, it, callback) }
+        val adapter = ArticleAdapter(articles, this)
         viewPager.adapter = adapter
         springDotsIndicator.setViewPager2(viewPager)
 

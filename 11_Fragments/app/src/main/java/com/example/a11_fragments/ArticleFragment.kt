@@ -7,11 +7,6 @@ import com.example.a11_fragments.R
 import kotlinx.android.synthetic.main.fragment_article.*
 
 class ArticleFragment: Fragment(R.layout.fragment_article) {
-    lateinit var callback: OnGenerateEventListener
-
-    fun setOnHeadlineSelectedListener(callback: OnGenerateEventListener) {
-        this.callback = callback
-    }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
@@ -20,7 +15,7 @@ class ArticleFragment: Fragment(R.layout.fragment_article) {
         articleText.setText(requireArguments().getInt(KEY_TEXT))
         requireView().setBackgroundResource(requireArguments().getInt(KEY_COLOR))
         generateEventButton.setOnClickListener {
-            callback.onGenerateEventClick()
+            (parentFragment as? OnGenerateEventListener)?.onGenerateEventClick()
         }
     }
 

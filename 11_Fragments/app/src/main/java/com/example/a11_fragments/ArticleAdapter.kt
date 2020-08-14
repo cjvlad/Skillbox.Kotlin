@@ -1,13 +1,11 @@
-import android.util.Log
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
 import androidx.viewpager2.adapter.FragmentStateAdapter
 
 class ArticleAdapter(
     private val articles: List<Article>,
-    activity: FragmentActivity,
-    private val callback: ArticleFragment.OnGenerateEventListener
-): FragmentStateAdapter(activity) {
+    fragment: Fragment
+): FragmentStateAdapter(fragment) {
 
     override fun getItemCount(): Int {
         return articles.size
@@ -15,12 +13,10 @@ class ArticleAdapter(
 
     override fun createFragment(position: Int): Fragment {
         val article = articles[position]
-        val articleFragment = ArticleFragment.newInstance(
+        return ArticleFragment.newInstance(
             textRes = article.textRes,
             bgColorRes = article.bgColorRes,
             imageRes = article.imageRes
         )
-        articleFragment.setOnHeadlineSelectedListener(callback)
-        return articleFragment
     }
 }
