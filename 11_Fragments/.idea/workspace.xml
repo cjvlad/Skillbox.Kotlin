@@ -33,9 +33,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67b6de62-ee97-4bcb-a226-7f77f2227e5d" name="Default Changelist" comment="Module 13 is Ready">
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/a11_fragments/ViewPagerFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/a11_fragments/ViewPagerFragment.kt" afterDir="false" />
-    </list>
+    <list default="true" id="67b6de62-ee97-4bcb-a226-7f77f2227e5d" name="Default Changelist" comment="Module is Ready" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,6 +67,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../10_Fragments" />
   </component>
@@ -128,7 +127,21 @@
       <option name="project" value="LOCAL" />
       <updated>1597505136877</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Module is Ready">
+      <created>1597505621431</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1597505621431</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Module is Ready">
+      <created>1597505683092</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1597505683092</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -157,7 +170,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Module 13 is Ready" />
-    <option name="LAST_COMMIT_MESSAGE" value="Module 13 is Ready" />
+    <MESSAGE value="Module is Ready" />
+    <option name="LAST_COMMIT_MESSAGE" value="Module is Ready" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1519" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597420057266">
@@ -173,10 +187,10 @@
     </state>
     <state x="563" y="198" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1597504675718" />
     <state x="-1469" y="294" key="FileChooserDialogImpl/0.0.2498.1080/-2498.0.2498.1080/2560.-523.1080.1880@-2498.0.2498.1080" timestamp="1597420172624" />
-    <state x="275" y="95" key="Vcs.Push.Dialog.v2" timestamp="1597505142661">
+    <state x="275" y="95" key="Vcs.Push.Dialog.v2" timestamp="1597505687357">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1597505142661" />
+    <state x="275" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1597505687357" />
     <state x="442" y="264" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1597505060553">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
