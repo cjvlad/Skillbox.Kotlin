@@ -30,7 +30,7 @@ class ViewPagerFragment : Fragment(R.layout.fragment_view_pager), TagsFilterDial
             textRes = R.string.onboarding_text_1,
             bgColorRes = R.color.onboarding_color_1,
             titleRes = R.string.article_1_title,
-            imageRes = R.drawable.piperpa31
+            imageRes = R.drawable.as350
         ),
 
         Article(
@@ -38,7 +38,7 @@ class ViewPagerFragment : Fragment(R.layout.fragment_view_pager), TagsFilterDial
             textRes = R.string.onboarding_text_2,
             bgColorRes = R.color.onboarding_color_2,
             titleRes = R.string.article_2_title,
-            imageRes = R.drawable.piperpa31
+            imageRes = R.drawable.bell412
         ),
 
         Article(
@@ -46,7 +46,7 @@ class ViewPagerFragment : Fragment(R.layout.fragment_view_pager), TagsFilterDial
             textRes = R.string.onboarding_text_3,
             bgColorRes = R.color.onboarding_color_3,
             titleRes = R.string.article_3_title,
-            imageRes = R.drawable.piperpa31
+            imageRes = R.drawable.mi8
         ),
 
         Article(
@@ -54,7 +54,7 @@ class ViewPagerFragment : Fragment(R.layout.fragment_view_pager), TagsFilterDial
             textRes = R.string.onboarding_text_4,
             bgColorRes = R.color.onboarding_color_4,
             titleRes = R.string.article_4_title,
-            imageRes = R.drawable.piperpa31
+            imageRes = R.drawable.milmi26
         ),
 
         Article(
@@ -62,7 +62,7 @@ class ViewPagerFragment : Fragment(R.layout.fragment_view_pager), TagsFilterDial
             textRes = R.string.onboarding_text_5,
             bgColorRes = R.color.onboarding_color_5,
             titleRes = R.string.article_1_title,
-            imageRes = R.drawable.piperpa31
+            imageRes = R.drawable.a320
         ),
 
         Article(
@@ -70,7 +70,7 @@ class ViewPagerFragment : Fragment(R.layout.fragment_view_pager), TagsFilterDial
             textRes = R.string.onboarding_text_6,
             bgColorRes = R.color.onboarding_color_3,
             titleRes = R.string.article_2_title,
-            imageRes = R.drawable.piperpa31
+            imageRes = R.drawable.b737
         ),
 
         Article(
@@ -78,7 +78,7 @@ class ViewPagerFragment : Fragment(R.layout.fragment_view_pager), TagsFilterDial
             textRes = R.string.onboarding_text_7,
             bgColorRes = R.color.onboarding_color_1,
             titleRes = R.string.article_3_title,
-            imageRes = R.drawable.piperpa31
+            imageRes = R.drawable.b777
         ),
 
         Article(
@@ -86,7 +86,7 @@ class ViewPagerFragment : Fragment(R.layout.fragment_view_pager), TagsFilterDial
             textRes = R.string.onboarding_text_8,
             bgColorRes = R.color.onboarding_color_2,
             titleRes = R.string.article_4_title,
-            imageRes = R.drawable.piperpa31
+            imageRes = R.drawable.eclipse550
         ),
 
         Article(
@@ -94,7 +94,7 @@ class ViewPagerFragment : Fragment(R.layout.fragment_view_pager), TagsFilterDial
             titleRes = R.string.article_1_title,
             textRes = R.string.onboarding_text_9,
             bgColorRes = R.color.onboarding_color_3,
-            imageRes = R.drawable.piperpa31
+            imageRes = R.drawable.an2
         ),
 
         Article(
@@ -102,7 +102,7 @@ class ViewPagerFragment : Fragment(R.layout.fragment_view_pager), TagsFilterDial
             titleRes = R.string.article_2_title,
             textRes = R.string.onboarding_text_10,
             bgColorRes = R.color.onboarding_color_4,
-            imageRes = R.drawable.piperpa31
+            imageRes = R.drawable.cessna177
         ),
 
         Article(
@@ -110,7 +110,7 @@ class ViewPagerFragment : Fragment(R.layout.fragment_view_pager), TagsFilterDial
             titleRes = R.string.article_3_title,
             textRes = R.string.onboarding_text_11,
             bgColorRes = R.color.onboarding_color_5,
-            imageRes = R.drawable.piperpa31
+            imageRes = R.drawable.fokker50
         ),
         Article(
             tags = listOf(ArticleTag.PROPELLER),
