@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:id="@+id/tvNamePerson_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Добавить имя"
+            android:textColor="@android:color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+    <EditText
+            android:id="@+id/etNamePerson_dialogFragment"
+            android:layout_width="190dp"
+            android:layout_height="41dp"
+            android:layout_gravity="center_horizontal"
+            android:hint="Имя"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="@id/tvNamePerson_dialog"
+            app:layout_constraintTop_toBottomOf="@id/tvNamePerson_dialog"/>
+
+    <TextView
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:id="@+id/tvLinkPerson_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ссылка на картинку"
+            android:textColor="@android:color/black"
+            app:layout_constraintStart_toStartOf="@id/etNamePerson_dialogFragment"
+            app:layout_constraintTop_toBottomOf="@id/etNamePerson_dialogFragment"/>
+
+    <EditText
+            android:id="@+id/etLinkPerson_dialogFragment"
+            android:layout_width="191dp"
+            android:layout_height="37dp"
+            android:layout_gravity="center_horizontal"
+            android:hint="link"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="@+id/tvLinkPerson_dialog"
+            app:layout_constraintTop_toBottomOf="@id/tvLinkPerson_dialog"/>
+    <TextView
+            android:layout_marginTop="5dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:id="@+id/tv_choosingType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Выбрать тип"
+            android:textColor="@android:color/black"
+            app:layout_constraintStart_toStartOf="@+id/etLinkPerson_dialogFragment"
+            app:layout_constraintTop_toBottomOf="@+id/etLinkPerson_dialogFragment"/>
+    <Spinner
+            android:layout_marginTop="10dp"
+            android:id="@+id/spinnerType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/TypePerson"
+            app:layout_constraintTop_toBottomOf="@+id/tv_choosingType"
+            tools:layout_editor_absoluteX="10dp"
+            tools:ignore="MissingConstraints"/>
+
+    <TextView
+            android:layout_marginTop="5dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:id="@+id/tv_contexPerson"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Добавить информацию"
+            android:textColor="@android:color/black"
+            app:layout_constraintStart_toStartOf="@+id/spinnerType"
+            app:layout_constraintTop_toBottomOf="@+id/spinnerType"/>
+    <EditText
+            android:id="@+id/etContextPerson"
+            android:layout_width="190dp"
+            android:layout_height="41dp"
+            android:layout_gravity="center_horizontal"
+            android:hint="Краткая информация"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="@id/tv_contexPerson"
+            app:layout_constraintTop_toBottomOf="@id/tv_contexPerson"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

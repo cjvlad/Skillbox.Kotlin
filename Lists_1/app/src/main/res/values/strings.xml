@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">List_1</string>
+    <string name="typePlaceHolder">Тип: </string>
+    <string name="developerType">Разработчик</string>
+    <string name="painterType">Художник</string>
+    <string name="inventorType">Изобретатель</string>
+    <string name="musicianType">Музыкант</string>
+
+    <string name="painterSubType">Художник</string>
+    <string name="inventorSubType">Изобретатель</string>
+    <string name="musicianSubType">Музыкант</string>
+
+    <string name="specializationPlaceHolder">Специализация: </string>
+    <string name="infoPlaceHolder">Информация: </string>
+
+
+
+    <string-array name="TypePerson">
+        <item>Художник</item>
+        <item>Изобретатель</item>
+        <item>Музыкант</item>
+    </string-array>
+
+
+</resources>
