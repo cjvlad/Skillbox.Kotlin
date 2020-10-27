@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">01_ConstraintLayout</string>
+    <string name="input_email">Email:</string>
+    <string name="input_password">Пароль:</string>
+    <string name="accept_agreement">Принять соглашение</string>
+    <string name="login_button">Login</string>
+    <string name="operation_complete">Логин прошел успешно</string>
+    <string name="writeText">Введите данные:</string>
+    <string name="success_message">Логин прошел успешно!</string>
+
+</resources>

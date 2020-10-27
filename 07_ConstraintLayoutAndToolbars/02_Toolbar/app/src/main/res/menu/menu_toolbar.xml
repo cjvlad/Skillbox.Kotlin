@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+            android:id="@+id/empty"
+            android:title=""
+            android:orderInCategory="101"
+            app:showAsAction="always"
+            app:iconTint="@android:color/white"
+            android:iconTint="@android:color/white"
+            android:icon="@drawable/baseline_more_vert_black_18dp">
+
+        <menu>
+            <item android:id="@+id/action_menu_1"
+                    android:icon="@android:drawable/ic_menu_preferences"
+                    app:showAsAction="ifRoom"
+                    android:title="@string/acton_2" />
+        </menu>
+    </item>
+
+    <item android:title="@string/acton_2"
+          android:id="@+id/action_2"
+          app:showAsAction="ifRoom"
+          app:iconTint="@android:color/white"
+          android:iconTint="@android:color/white"
+          android:icon="@drawable/ic_attach" />
+
+    <item
+            android:id="@+id/action_search"
+            android:icon="@drawable/ic_search"
+            android:title="@string/acton_search"
+            app:iconTint="@android:color/white"
+            app:showAsAction="ifRoom|collapseActionView"
+            app:actionViewClass="androidx.appcompat.widget.SearchView"/>
+</menu>
