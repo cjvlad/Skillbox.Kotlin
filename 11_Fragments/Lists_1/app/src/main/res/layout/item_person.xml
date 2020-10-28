@@ -39,7 +39,7 @@
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="@id/nameTextView"
             app:layout_constraintTop_toBottomOf="@+id/nameTextView"
-            tools:text="Специализация"/>
+            tools:text="Специализация" android:layout_marginTop="5dp"/>
 
     <TextView
             android:id="@+id/informationTextView"
@@ -48,19 +48,9 @@
             tools:text="Информация"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="@id/nameTextView"
-            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="@id/nameTextView"
-            app:layout_constraintTop_toBottomOf="@+id/specializationTextView"/>
+            app:layout_constraintTop_toBottomOf="@+id/specializationTextView" android:layout_marginTop="5dp"/>
 
-    <TextView
-            android:id="@+id/typeTextView"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            tools:text="Тип"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="@id/nameTextView"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toStartOf="@id/nameTextView"
-            app:layout_constraintTop_toBottomOf="@+id/informationTextView"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

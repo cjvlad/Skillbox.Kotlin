@@ -36,12 +36,12 @@ class PersonAdapter(
         when(holder){
             is PersonHodler -> {
                 val personality = persones[position].let { it as? Person.FamousPerson }
-                    ?: error("Movie Figure on position = $position is not actor")
+                    ?: error("Person on position = $position is not Person")
                 holder.bind(personality)
             }
             is DeveloperHolder -> {
                 val personality = persones[position].let { it as? Person.FamousDeveloper }
-                    ?: error("Movie Figure on position = $position is not film director")
+                    ?: error("Person on position = $position is not film developer")
                 holder.bind(personality)
             }
             else -> error("Incorrect view holder = $holder")
@@ -56,7 +56,6 @@ class PersonAdapter(
         val specializationTextView = view.findViewById<TextView>(R.id.specializationTextView)
         val informationTextView = view.findViewById<TextView>(R.id.informationTextView)
         val imageViewAvatar = view.findViewById<ImageView>(R.id.avatarImageView)
-
         init {
             view.setOnClickListener {
                 onItemClick(adapterPosition)
@@ -84,12 +83,8 @@ class PersonAdapter(
         view: View,
         onItemClick: (position: Int) -> Unit
     ): BaseMovieFiguresHolder(view, onItemClick){
-        val textViewGenres = view.findViewById<TextView>(R.id.typeTextView)
-
         fun bind(personality: Person.FamousPerson){
-            bindMainInfo(personality.name, personality.contextPerson, personality.typePerson, personality.avatarLink)
-
-            textViewGenres.text = itemView.context.resources.getString(R.string.typePlaceHolder, personality.subTypes)
+            bindMainInfo(personality.name, personality.typePerson, personality.contextPerson, personality.avatarLink)
         }
     }
 
@@ -102,8 +97,8 @@ class PersonAdapter(
         }
     }
 
-    fun updatePersons(newMovieFigure: List<Person>){
-        persones = newMovieFigure
+    fun updatePersons(newPersons: List<Person>){
+        persones = newPersons
     }
 
     companion object{

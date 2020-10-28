@@ -9,10 +9,8 @@ sealed class Person: Parcelable {
         val avatarLink: String,
         val contextPerson: String,
         val typePerson: String,
-        val subTypes: String
     ): Person(), Parcelable {
         constructor(parcel: Parcel) : this(
-            parcel.readString().orEmpty(),
             parcel.readString().orEmpty(),
             parcel.readString().orEmpty(),
             parcel.readString().orEmpty(),
@@ -24,7 +22,6 @@ sealed class Person: Parcelable {
             parcel.writeString(avatarLink)
             parcel.writeString(contextPerson)
             parcel.writeString(typePerson)
-            parcel.writeString(subTypes)
         }
 
         override fun describeContents(): Int {

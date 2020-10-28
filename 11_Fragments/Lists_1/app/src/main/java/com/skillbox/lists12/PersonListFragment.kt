@@ -53,37 +53,31 @@ class PersonListFragment : Fragment(R.layout.fragment_user_list), DialogButtonCl
                     name = "Леонардо да Винчи",
                     typePerson = resources.getString(R.string.painterType),
                     avatarLink = "https://avatars.mds.yandex.net/get-zen_doc/118284/pub_5a588055f4a0dd3e99c620aa_5a5886b98c8be3e20dc47ed2/scale_1200",
-                    contextPerson = "Итальянский художник (живописец, скульптор, архитектор) и учёный (анатом, естествоиспытатель), изобретатель, писатель, музыкант, один из крупнейших представителей искусства Высокого Возрождения, яркий пример «универсального человека»",
-                    subTypes = resources.getString(R.string.painterSubType)
-
+                    contextPerson = "Итальянский художник (живописец, скульптор, архитектор) и учёный (анатом, естествоиспытатель), изобретатель, писатель, музыкант",
                 ),
                 Person.FamousPerson(
                     name = "Винсент Ван Гог",
                     avatarLink = "https://avatars.mds.yandex.net/get-zen_doc/44972/pub_5a588055f4a0dd3e99c620aa_5a588786a815f16268273be7/scale_1200",
                     typePerson= resources.getString(R.string.painterType),
                     contextPerson = "Нидерландский художник-постимпрессионист, чьи работы оказали вневременное влияние на живопись XX века",
-                    subTypes = resources.getString(R.string.painterSubType),
                 ),
                 Person.FamousPerson(
                     name = "Никола Тесла",
                     avatarLink = "https://cdn.fishki.net/upload/post/201603/07/1875568/ilklerin-adami-nikola-tesla_8667515-6012_1280x720.jpg",
                     typePerson = resources.getString(R.string.inventorType),
-                    subTypes = resources.getString(R.string.inventorSubType),
-                    contextPerson = "Выдающийся изобретатель, физик, инженер сербского происхождения, автор свыше сотни изобретений, многие из которых кардинально изменили жизнь человечества. Наибольшую известность получил за создание устройств функционирующих на переменном токе, а также последовательное отстаивание идеи существования эфира. Имя изобретателя носит единица измерения плотности магнитной индукции."
+                    contextPerson = "Выдающийся изобретатель, физик, инженер сербского происхождения, автор свыше сотни изобретений, многие из которых кардинально изменили жизнь человечества"
                 ),
                 Person.FamousPerson(
                     name = "Томас Эдисон",
                     avatarLink = "https://cdn.fishki.net/upload/post/201603/07/1875568/tn/tomas-jedisson-izuchal-diety-i-ih-vlijanie-na-cheloveka.jpg",
                     typePerson = resources.getString(R.string.inventorType),
-                    subTypes = resources.getString(R.string.inventorSubType),
-                    contextPerson = "Американский изобретатель и предприниматель, получивший в США 1093 патента[6] и около 3 тысяч в других странах мира[7]; создатель фонографа; усовершенствовал телеграф, телефон, киноаппаратуру, разработал один из первых коммерчески успешных вариантов электрической лампы накаливания[8], которая была доработкой других вариантов."
+                    contextPerson = "Американский изобретатель и предприниматель, создатель фонографа, усовершенствовал телеграф, телефон, киноаппаратуру, разработал один из первых коммерчески успешных вариантов электрической лампы накаливания"
                 ),
                 Person.FamousPerson(
                     name = "Луи Армстронг",
                     avatarLink = "https://wallpaperaccess.com/full/2135237.jpg",
                     typePerson = resources.getString(R.string.musicianType),
-                    subTypes = resources.getString(R.string.musicianSubType),
-                    contextPerson = "Американский джазовый трубач, вокалист и руководитель ансамбля. Оказал (наряду с Дюком Эллингтоном, Чарли Паркером, Майлсом Дейвисом и Джоном Колтрейном) наибольшее влияние на развитие джаза и внёс значительный вклад в его популяризацию во всём мире"
+                    contextPerson = "Американский джазовый трубач, вокалист и руководитель ансамбля"
                 )
             )
         }
@@ -108,13 +102,13 @@ class PersonListFragment : Fragment(R.layout.fragment_user_list), DialogButtonCl
 
     private fun selectTypeOfPerson() {
         isDialog = true
-        val listOfFigures = PersonFigureEnum.values().map { it.personFigureName }.toTypedArray()
+        val listOfPersons = PersonFigureEnum.values().map { it.personFigureName }.toTypedArray()
         dialog = AlertDialog.Builder(requireContext())
-            .setTitle("Choose a profession of figure")
-            .setNegativeButton("Cancel") { _, _ -> }
-            .setItems(listOfFigures) { _, which ->
-                val movieFigureDialogFragment = InfoDialogFragment.newInstance(which)
-                movieFigureDialogFragment.show(childFragmentManager, listOfFigures[which])
+            .setTitle("Выберите тип:")
+            .setNegativeButton("Отмена") { _, _ -> }
+            .setItems(listOfPersons) { _, which ->
+                val personDialogFragment = InfoDialogFragment.newInstance(which)
+                personDialogFragment.show(childFragmentManager, listOfPersons[which])
                 isDialog = false
             }
             .setOnCancelListener { isDialog = false }
@@ -122,8 +116,8 @@ class PersonListFragment : Fragment(R.layout.fragment_user_list), DialogButtonCl
 
     }
 
-    private fun addPerson(movieFigure: Person) {
-        personFigures.add(0, movieFigure)
+    private fun addPerson(person: Person) {
+        personFigures.add(0, person)
         updateAdapter()
         personFiguresAdapter.notifyItemInserted(0)
         itemView_listFragment.scrollToPosition(0)

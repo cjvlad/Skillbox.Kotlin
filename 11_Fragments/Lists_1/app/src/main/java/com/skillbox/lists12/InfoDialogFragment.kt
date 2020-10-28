@@ -32,20 +32,18 @@ class InfoDialogFragment : DialogFragment() {
     private fun onCreatePersonDialog(): Dialog {
         val view = LayoutInflater.from(context).inflate(R.layout.add_person, null)
         val dialog = AlertDialog.Builder(context)
-            .setTitle("Add characteristic of a new movie figure:")
+            .setTitle("Добавить персонаж:")
             .setView(view)
-            .setPositiveButton("add") { _, _ ->
-                var name = view.etNamePerson_dialogFragment.text.toString()
-                var info = view.etContextPerson.text.toString()
-                if (name == "") name = "Anonym"
-                var link = view.etLinkPerson_dialogFragment.text.toString()
+            .setPositiveButton("Добавить") { _, _ ->
+                val name = view.etNamePerson_dialogFragment.text.toString()
+                val info = view.etContextPerson.text.toString()
+                val link = view.etLinkPerson_dialogFragment.text.toString()
                 val spinnerType = view.spinnerType.selectedItem.toString()
-                val person = Person.FamousPerson(name, info, "", spinnerType, link )
+                val person = Person.FamousPerson(name, link, info, spinnerType)
                 (parentFragment as DialogButtonClick).onPositiveButtonClick(person)
             }
             .setNegativeButton("Отмена") { _, _ -> }
             .create()
-
         view.etNamePerson_dialogFragment.addTextChangedListener {
             dialog.getButton(AlertDialog.BUTTON_POSITIVE).isEnabled =
                 view.etNamePerson_dialogFragment.text.isNotBlank()
@@ -53,37 +51,28 @@ class InfoDialogFragment : DialogFragment() {
         dialog.setOnShowListener {
             (it as AlertDialog).getButton(AlertDialog.BUTTON_POSITIVE).isEnabled = false
         }
-
         return dialog
     }
 
     private fun onCreateDeveloperDialog(): Dialog {
         val view = LayoutInflater.from(context).inflate(R.layout.add_developer, null)
-
         val dialog = AlertDialog.Builder(context)
             .setTitle("Добавить нового разработчика:")
             .setView(view)
             .setPositiveButton("Добавить") { _, _ ->
-                var name = view.etNameDeveloper_dialogFragment.text.toString()
-                var info = view.etContextDeveloper.text.toString()
-                if (name == "") name = "Anonym"
-                var link = view.etLinkDeveloper_dialogFragment.text.toString()
-                val developer = Person.FamousDeveloper(name, info, "", link )
+                val name = view.etNameDeveloper_dialogFragment.text.toString()
+                val link = view.etLinkDeveloper_dialogFragment.text.toString()
+                val info = view.etContextDeveloper.text.toString()
+                val developer = Person.FamousDeveloper(name, link, "Разработчик", info)
                 (parentFragment as DialogButtonClick).onPositiveButtonClick(developer)
             }
             .setNegativeButton("Отмена") { _, _ -> }
             .create()
-
         view.etNameDeveloper_dialogFragment.addTextChangedListener {
-            dialog.getButton(AlertDialog.BUTTON_POSITIVE).isEnabled =
-                view.etNamePerson_dialogFragment.text.isNotBlank()
+            dialog.getButton(AlertDialog.BUTTON_POSITIVE).isEnabled = view.etNameDeveloper_dialogFragment.text.isNotBlank()
         }
-        
-        
-        dialog.setOnShowListener {
-            (it as AlertDialog).getButton(AlertDialog.BUTTON_POSITIVE).isEnabled = false
+        dialog.setOnShowListener { (it as AlertDialog).getButton(AlertDialog.BUTTON_POSITIVE).isEnabled = false
         }
-
         return dialog
     }
 }
