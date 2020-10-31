@@ -23,53 +23,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f6c0296-4586-4b13-95de-1588dd0434e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Lists_1/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lists_1/app/src/main/ic_launcher-playstore.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lists_1/app/src/main/java/com/skillbox/lists12/MainActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lists_1/app/src/main/java/com/skillbox/lists12/Person.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lists_1/app/src/main/java/com/skillbox/lists12/PersonAdapter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lists_1/app/src/main/java/com/skillbox/lists12/PersonListFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lists_1/app/src/main/java/com/skillbox/lists12/User.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lists_1/app/src/main/java/com/skillbox/lists12/UserAdapter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lists_1/app/src/main/java/com/skillbox/lists12/UserListFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lists_1/app/src/main/java/com/skillbox/lists12/ViewExtensions.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lists_1/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lists_1/app/src/main/res/drawable/ic_add.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lists_1/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lists_1/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lists_1/app/src/main/res/drawable/ic_portrait.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lists_1/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lists_1/app/src/main/res/layout/fragment_user_list.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lists_1/app/src/main/res/layout/item_developer.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lists_1/app/src/main/res/layout/item_user.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lists_1/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lists_1/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lists_1/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lists_1/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lists_1/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lists_1/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lists_1/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lists_1/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lists_1/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lists_1/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lists_1/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lists_1/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lists_1/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lists_1/app/src/main/res/values/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lists_1/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lists_1/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileContent/fileContent.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/resourceHashesCache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/classAnalysis.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/jarAnalysis.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/javaCompile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_KotlinOop/out/production/Kotlin(4.18)/META-INF/Kotlin(4.18).kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_KotlinOop/out/production/Kotlin(4.18)/MainKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_KotlinOop/out/production/Kotlin(4.18)/com/example/skillboxkotlin/Battle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_KotlinOop/out/production/Kotlin(4.18)/com/example/skillboxkotlin/BattleState$Draw.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_KotlinOop/out/production/Kotlin(4.18)/com/example/skillboxkotlin/BattleState$FirstTeamWon.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_KotlinOop/out/production/Kotlin(4.18)/com/example/skillboxkotlin/BattleState$Progress.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_KotlinOop/out/production/Kotlin(4.18)/com/example/skillboxkotlin/BattleState$SecondTeamWon.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_KotlinOop/out/production/Kotlin(4.18)/com/example/skillboxkotlin/BattleState.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_KotlinOop/out/production/Kotlin(4.18)/com/example/skillboxkotlin/Team.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_KotlinOop/out/production/Kotlin(4.18)/com/example/skillboxkotlin/Warriors/AbstractWarrior.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_KotlinOop/out/production/Kotlin(4.18)/com/example/skillboxkotlin/Warriors/Soldier_Advanced.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_KotlinOop/out/production/Kotlin(4.18)/com/example/skillboxkotlin/Warriors/Soldier_Beginner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_KotlinOop/out/production/Kotlin(4.18)/com/example/skillboxkotlin/Warriors/Soldier_Intermediate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_KotlinOop/out/production/Kotlin(4.18)/com/example/skillboxkotlin/Warriors/Warrior.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_KotlinOop/out/production/Kotlin(4.18)/com/example/skillboxkotlin/Weapons/AbstractWeapon.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_KotlinOop/out/production/Kotlin(4.18)/com/example/skillboxkotlin/Weapons/Ammo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_KotlinOop/out/production/Kotlin(4.18)/com/example/skillboxkotlin/Weapons/FireType$burstingShot.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_KotlinOop/out/production/Kotlin(4.18)/com/example/skillboxkotlin/Weapons/FireType$singleShot.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_KotlinOop/out/production/Kotlin(4.18)/com/example/skillboxkotlin/Weapons/FireType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_KotlinOop/out/production/Kotlin(4.18)/com/example/skillboxkotlin/Weapons/Weapons$minigun.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_KotlinOop/out/production/Kotlin(4.18)/com/example/skillboxkotlin/Weapons/Weapons$rifle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_KotlinOop/out/production/Kotlin(4.18)/com/example/skillboxkotlin/Weapons/Weapons$rivolver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_KotlinOop/out/production/Kotlin(4.18)/com/example/skillboxkotlin/Weapons/Weapons$sniperRifle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_KotlinOop/out/production/Kotlin(4.18)/com/example/skillboxkotlin/Weapons/Weapons.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../11_Fragments/Lists_1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../11_Fragments/Lists_1/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../11_Fragments/Lists_1/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../11_Fragments/Lists_1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/java/com/skillbox/lists12/DialogButtonClick.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/java/com/skillbox/lists12/InfoDialogFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/java/com/skillbox/lists12/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/java/com/skillbox/lists12/Person.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/java/com/skillbox/lists12/PersonAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/java/com/skillbox/lists12/PersonListFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/java/com/skillbox/lists12/ViewExtensions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/res/drawable/ic_add.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/res/drawable/ic_portrait.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/res/layout/add_developer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/res/layout/add_person.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/res/layout/fragment_user_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/res/layout/item_developer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/res/layout/item_person.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
@@ -81,12 +78,52 @@
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_auth_11_0_4_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_auth_11_0_4_aar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_common_11_0_4_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_common_11_0_4_aar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../11_Fragments/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../11_Fragments/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../11_Fragments/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../11_Fragments/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../11_Fragments/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../11_Fragments/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../11_Fragments/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../11_Fragments/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../11_Fragments/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../11_Fragments/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../11_Fragments/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../11_Fragments/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_Fragments/Lists_1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../11_Fragments/Lists_1/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/sampledata/colors" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/ic_launcher-playstore.png" beforeDir="false" afterPath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/ic_launcher-playstore.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/java/com/example/a11_fragments/AppAcivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/java/com/example/a11_fragments/Article.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/java/com/example/a11_fragments/ArticleAdapter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/java/com/example/a11_fragments/ArticleFragment.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/java/com/example/a11_fragments/ArticleTag.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/java/com/example/a11_fragments/Extensions.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/java/com/example/a11_fragments/HingeTransformation.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/java/com/example/a11_fragments/TagsFilterDialog.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/java/com/example/a11_fragments/ViewPagerFragment.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/res/drawable-v24/onboarding_drawable_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/res/drawable-v24/onboarding_drawable_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/res/drawable-v24/onboarding_drawable_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/res/drawable-v24/onboarding_drawable_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/res/drawable-v24/onboarding_drawable_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/res/drawable-v24/onboarding_drawable_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/res/drawable-v24/onboarding_drawable_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/res/drawable-v24/onboarding_drawable_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/res/drawable-v24/onboarding_drawable_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/res/drawable-v24/onboarding_drawable_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/res/drawable/ic_filter_list.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/res/drawable/ic_filter_list.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/res/drawable/ic_flight.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/res/drawable/ic_flight.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/res/layout/activity_app.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/res/layout/activity_app.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/res/layout/fragment_article.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/res/layout/fragment_view_pager.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/res/menu/menu_toolbar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/res/menu/menu_toolbar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../11_Fragments/Lists_1/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_Fragments/Lists_1/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../11_Fragments/Lists_1/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_Fragments/Lists_1/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../11_Fragments/Lists_1/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_Fragments/Lists_1/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../11_Fragments/Lists_1/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_Fragments/Lists_1/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/../11_Fragments/Lists_1/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_Fragments/Lists_1/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../11_Fragments/Lists_1/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
