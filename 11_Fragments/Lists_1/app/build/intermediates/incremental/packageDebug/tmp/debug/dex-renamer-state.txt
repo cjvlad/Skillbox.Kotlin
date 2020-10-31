@@ -1,0 +1,7 @@
+#Thu Oct 29 02:26:11 ALMT 2020
+base.0=D\:\\Android\\Projects\\android_basic\\11_Fragments\\Lists_1\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=D\:\\Android\\Projects\\android_basic\\11_Fragments\\Lists_1\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex

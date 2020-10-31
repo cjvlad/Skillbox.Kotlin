@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:Lists_1" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1ee5c773-ba92-4189-b17a-57afbbdd20ac" name="Default Changelist" comment="Start new module">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/skillbox/lists12/InfoDialogFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/skillbox/lists12/InfoDialogFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/skillbox/lists12/Person.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/skillbox/lists12/Person.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/skillbox/lists12/PersonAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/skillbox/lists12/PersonAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/skillbox/lists12/PersonListFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/skillbox/lists12/PersonListFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_developer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_developer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_person.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_person.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Phone_Pixel_2_API_24_" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/../.." value="module16.8" />
+        <entry key="$PROJECT_DIR$/.." value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1gcrIXpUndrElpUqDLfnFgmsTcz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="R58M808ML9N" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-10-28T17:26:51.503497200Z" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Skillbox/SkillboxKotlin-master/SkillboxKotlin-master" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Android\Projects\android_basic\Lists_1\app\src\main\res\layout" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.skillbox.lists12" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Android\Projects\android_basic\Lists_1\app\src\main\res\layout" />
+      <recent name="D:\Android\Projects\android_basic\Lists_1\app\src\main\java\com\skillbox\lists12" />
+      <recent name="D:\Android\Projects\android_basic\Lists_1\app\src\main\res\drawable" />
+      <recent name="D:\Android\Projects\android_basic\Lists_1\app\src\main\java\com\example\lists_1" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Lists_1.app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="Lists_1.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <Java />
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1ee5c773-ba92-4189-b17a-57afbbdd20ac" name="Default Changelist" comment="" />
+      <created>1598424643161</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598424643161</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Start new h/w">
+      <created>1603739316912</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603739316912</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="Lists_1" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+    <MESSAGE value="Start new h/w" />
+    <option name="LAST_COMMIT_MESSAGE" value="Start new h/w" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="474" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1601388817901">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="474" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1601388817901" />
+    <state x="413" y="109" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603906183203">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="109" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1603906183203" />
+    <state x="164" y="117" width="1182" height="544" key="AVDManager" timestamp="1602953368612">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="164" y="117" width="1182" height="544" key="AVDManager/0.0.1366.728@0.0.1366.728" timestamp="1602953368612" />
+    <state x="463" y="117" key="FileChooserDialogImpl" timestamp="1603904359896">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="117" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1603904359896" />
+    <state width="1323" height="357" key="GridCell.Tab.0.bottom" timestamp="1603902099905">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="357" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603902099905" />
+    <state width="1323" height="357" key="GridCell.Tab.0.center" timestamp="1603902099905">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="357" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1603902099905" />
+    <state width="1323" height="357" key="GridCell.Tab.0.left" timestamp="1603902099904">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="357" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1603902099904" />
+    <state width="1323" height="357" key="GridCell.Tab.0.right" timestamp="1603902099905">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="357" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1603902099905" />
+    <state x="263" y="107" key="IDE.errors.dialog" timestamp="1603904736434">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="263" y="107" key="IDE.errors.dialog/0.0.1366.728@0.0.1366.728" timestamp="1603904736434" />
+    <state x="184" y="9" key="SettingsEditor" timestamp="1603817848880">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1603817848880" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1603739480556">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1603739480556" />
+    <state x="483" y="265" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1603819050973">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="483" y="265" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1366.728@0.0.1366.728" timestamp="1603819050973" />
+    <state x="400" y="135" key="refactoring.ChangeSignatureDialog" timestamp="1603905487120">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="400" y="135" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1603905487120" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1601394864418">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1601394864418" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1599573355455">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1599573355455" />
+  </component>
+</project>
